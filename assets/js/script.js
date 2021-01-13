@@ -39,10 +39,14 @@ $(document).ready(function () {
         // format hours for display
         var displayHour = 0;
         var ampm = "";
-        if (hour >= 12) {
-            displayHour = hour - 12; //12pm is not being displayed
+        if (hour > 12) {
+            displayHour = hour - 12;
             ampm = "PM";
         } 
+        else if (hour === 12) {
+            displayHour = hour;
+            ampm = "PM";
+        }
         else {
             displayHour = hour;
             ampm = "AM";
@@ -75,7 +79,7 @@ $(document).ready(function () {
         var saveButton = $("<i>");
         saveButton.attr("id", `saveid-${index}`);
         saveButton.attr("save-id", index);
-        saveButton.attr("class", "far fa-save saveIcon");
+        saveButton.attr("class", "far fa-save saveIcon h-center");
 
         rowDiv.append(saveDiv);
         saveDiv.append(saveButton);
