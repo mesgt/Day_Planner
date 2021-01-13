@@ -13,7 +13,7 @@ gitHub: (https://github.com/mesgt/Day_Planner)
 Published website: (https://mesgt.github.io/Day_Planner/)
 
 ## Screenshots:
-<img src="assets/images/scheduler_business_hrs.jpg" alt="schedule appearance during business hours" width="300"/>
+<img src="assets/images/scheduler_business_hrs.jpg" alt="schedule img 1" width="300"/>
 <br>
 <br>
-<img src="assets/images/scheduler_after_hrs.jpg" alt="schedule appearance after business hours" width="300"/>
+<img src="assets/images/scheduler_after_hrs.jpg" alt="schedule img 2" width="300"/>
